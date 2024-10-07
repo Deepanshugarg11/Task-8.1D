@@ -1,0 +1,95 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Style for article headers */
+.articleHeader h2 {
+    margin: 5px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style for the title section */
+.title {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.title label {
+    margin: 5px;
+}
+
+.title input {
+    width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Style for the abstract section */
+.Abstract label {
+    display: block;
+    margin: 5px;
+}
+
+.Abstract input {
+    height: 50px;
+    width: 70%;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Style for the article content section */
+.Article label {
+    margin: 5px;
+    display: block;
+}
+
+.Article input[type="text"] {
+    width: 70.3%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Style for the tag section */
+.Tag label {
+    display: block;
+    margin: 5px;
+}
+
+.Tag input {
+    width: 750px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Style for the button */
+.Button {
+    width: 10%;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease-in-out;
+}
+

@@ -1,0 +1,98 @@
+/* Styles for FindQuestion component */
+.FindQuestion h2 {
+    margin: 5px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.filter {
+    margin-bottom: 20px;
+}
+
+.filter label {
+    display: block;
+    margin: 5px 0;
+}
+
+.filter input {
+    width: 400px;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+.Button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.Button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for questions list */
+.questions-list {
+    margin-top: 20px;
+}
+
+.card {
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin: 0;
+    color: #333;
+}
+
+.card p {
+    color: #555;
+}
+
+.card .Button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.card .Button:hover {
+    background-color: #0056b3;
+}
+
+.new-question-form {
+    margin-top: 20px;
+}
+
+.new-question-form h2 {
+    margin-bottom: 10px;
+}
+
+.new-question-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.new-question-form input {
+    width: 400px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
